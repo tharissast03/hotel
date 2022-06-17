@@ -1,0 +1,172 @@
+body {
+    background-color: #8f7d9c;
+    color: #280846;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: hotpink;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  a.btn-size:hover {
+    font-size:150%;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  .card {
+    background-color: #704670;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 25%;
+    box-shadow: 2px 2px 2px 2px #000000;
+  }
+
+  .card-detail{
+      width: 100%;
+      padding: 0;
+      margin: 0px;
+  }
+
+  .card-body {
+    background-color: #ae819f;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .card-img-top {
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+.card-text {
+    font-size: 14px;
+ }
+
+ .btn {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: #1A1C1E;
+    font-size: 14px;
+    border: none;
+ }
+
+ .btn:hover {
+    text-decoration: none;
+    color: hotpink;
+  }
+
+  .btn:link, .btn:visited {
+    text-decoration: none;
+    color: #1A1C1E;
+  }
+
+  header {
+    margin-bottom: 48px;
+    background-color: #704670;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #000000;
+  }
+
+  ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #704670;
+  }
+
+  .navbar {
+    z-index:2;
+    font-size:18px;
+    background-color: #704670;
+    color:#f1f1f1;
+    width:100%;
+    padding:0;
+}
+
+.right {
+    float: right!important;
+    margin: 8px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 20px 40px;
+    margin: 2px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: #654365;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=file] {
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
